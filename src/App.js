@@ -70,7 +70,8 @@ const App = () => {
 
     return (
         <div>
-            <h2>Atividade 3</h2>
+            <h2>Semana 1</h2>
+            <h3>Exercícios 1 e 2</h3>
             {dateTimeRendered && <Typewriter text="Conheça a Fatec" />}
             <DateTimeComponent />
             <button onClick={() => alert(new Date())}>Exibir Data Atual</button>
