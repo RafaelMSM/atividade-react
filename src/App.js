@@ -61,11 +61,11 @@ const App = () => {
     };
 
     const voltarParaIndex = () => {
-        // Implemente a navegação para a página inicial, se necessário
+        
     };
 
     const abrirGitHub = () => {
-        // Implemente a lógica para abrir o GitHub, se necessário
+        
     };
 
     return (
