@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+
+.text-home {
+    text-align: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
