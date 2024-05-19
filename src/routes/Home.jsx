@@ -27,6 +27,8 @@ const Home = () => {
                         style={{ marginBottom: '10px', display: 'block' }}>Exercícios Semana 1.2</Link>
                     <Link to="/exercicio3" className="btn bg-secondary-subtle"
                         style={{ marginBottom: '10px', display: 'block' }}>Exercícios Semana 2</Link>
+                    <Link to="/Semana3" className="btn bg-secondary-subtle"
+                        style={{ marginBottom: '10px', display: 'block' }}>Exercícios Semana 3</Link>
                 </div>
             </div>
         </div>

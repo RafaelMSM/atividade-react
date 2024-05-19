@@ -1,4 +1,3 @@
-// Exercicio3.jsx
 
 import React from 'react';
 import ContadorDePessoas from './ContadorDePessoas'; // Assumindo que o componente esteja no mesmo diretório
