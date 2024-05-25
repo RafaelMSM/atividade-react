@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './routes/Home';
-import Exercicio1 from "./components/Semana1/Exercicio1";
-import Exercicio2 from "./components/Semana1/Exercicio2";
-import Exercicio3 from "./components/Semana2/Exercicio3";
-import Semana3 from "./components/Semana3/Semana3";
-import Semana4 from "./components/Semana4/Semana4";
+import Exercicio1 from './components/Semana1/Exercicio1';
+import Exercicio2 from './components/Semana1/Exercicio2';
+import Exercicio3 from './components/Semana2/Exercicio3';
+import Semana3 from './components/Semana3/Semana3';
+import Semana4 from './components/Semana4/Semana4';
 import BucketList from './components/Semana4/BucketList';
 import Counter from './components/Semana4/Counter';
 import CounterList from './components/Semana4/CounterList';
@@ -22,6 +22,11 @@ import List4 from './components/Semana4/List4';
 import MovingDot from './components/Semana4/MovingDot';
 import ShapeEditor from './components/Semana4/ShapeEditor';
 import Toolbar from './components/Semana4/Toolbar';
+import Semana5 from './components/Semana5/Semana5';
+import Form1 from './components/Semana5/Form1'; // City Quiz
+import Form2Semana5 from './components/Semana5/Form2'; // Check-in
+import Accordion from './components/Semana5/Accordion';
+import Messenger from './components/Semana5/Messenger';
 
 const router = (
     <Routes>
@@ -45,6 +50,11 @@ const router = (
         <Route path="/semana4/movingdot" element={<MovingDot />} />
         <Route path="/semana4/shapeeditor" element={<ShapeEditor />} />
         <Route path="/semana4/toolbar" element={<Toolbar />} />
+        <Route path="/Semana5" element={<Semana5 />} />
+        <Route path="/semana5/form1" element={<Form1 />} />
+        <Route path="/semana5/form2" element={<Form2Semana5 />} />
+        <Route path="/semana5/accordion" element={<Accordion />} />
+        <Route path="/semana5/messenger" element={<Messenger />} />
     </Routes>
 );
 
